@@ -17,4 +17,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 	$(DEVICE_PATH)/overlay \
 	$(DEVICE_PATH)/overlay-lineage
 
+PRODUCT_SOONG_NAMESPACES += \
+    $(DEVICE_PATH)
+
 #include $(DEVICE_PATH)/device/*.mk
