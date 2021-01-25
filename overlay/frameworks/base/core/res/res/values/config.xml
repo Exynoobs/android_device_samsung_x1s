@@ -40,8 +40,8 @@
          backlight values for lux levels between these control points.
 
          Must be overridden in platform specific overlays -->
-	<integer-array name="config_autoBrightnessLevels">
-		<item>1</item>
+    <integer-array name="config_autoBrightnessLevels">
+        <item>1</item>
         <item>2</item>
         <item>3</item>
         <item>4</item>
@@ -59,8 +59,8 @@
         <item>300</item>
         <item>500</item>
         <item>1000</item>
-	<item>2000</item>
-	<item>2999</item>
+        <item>2000</item>
+        <item>2999</item>
         <item>3000</item>
         <item>4000</item>
         <item>5000</item>
@@ -72,28 +72,7 @@
         <item>20000</item>
         <item>40000</item>
     </integer-array>
-
-    <!-- Array of output values for LCD backlight corresponding to the lux values
-         in the config_autoBrightnessLevels array.  This array should have size one greater
-         than the size of the config_autoBrightnessLevels array.
-         The brightness values must be between 0 and 255 and be non-decreasing.
-         This must be overridden in platform specific overlays -->
-    <integer-array name="config_autoBrightnessLcdBacklightValues">
-        <item>6</item>
-        <item>6</item>
-        <item>6</item>
-        <item>11</item>
-        <item>79</item>
-        <item>95</item>
-        <item>141</item>
-        <item>183</item>
-        <item>200</item>
-        <item>219</item>
-        <item>255</item>
-        <item>255</item>
-        <item>255</item>
-    </integer-array>
-
+    
     <!-- Array of desired screen brightness in nits corresponding to the lux values
          in the config_autoBrightnessLevels array. As with config_screenBrightnessMinimumNits and
          config_screenBrightnessMaximumNits, the display brightness is defined as the measured
@@ -108,42 +87,37 @@
          array. The brightness values must be non-negative and non-decreasing. This must be
          overridden in platform specific overlays -->
     <array name="config_autoBrightnessDisplayValuesNits">
-        <item>10</item>
         <item>12</item>
-        <item>15</item>
-        <item>20</item>
-        <item>22.16</item>
-        <item>25.16</item>
-        <item>49.74</item>
-        <item>109.85</item>
-        <item>109.85</item>
-        <item>113</item>
-        <item>132</item>
-        <item>169.4</item>
-        <item>249.5</item>
-        <item>400</item>
-        <item>400</item>
-        <item>450</item>
-        <item>450</item>
-        <item>475</item>
-        <item>475</item>
-        <item>500</item>
-        <item>500</item>
-        <item>525</item>
-        <item>525</item>
-        <item>550</item>
-        <item>550</item>
-        <item>575</item>
-        <item>575</item>
-        <item>600</item>
-        <item>600</item>
-        <item>625</item>
-        <item>625</item>
-        <item>650</item>
-        <item>650</item>
-        <item>675</item>
-        <item>675</item>
-        <item>700</item>
+        <item>17</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>62</item>
+        <item>84.5</item>
+        <item>108</item>
+        <item>119</item>
+        <item>119</item>
+        <item>119</item>
+        <item>122.5</item>
+        <item>122.5</item>
+        <item>126</item>
+        <item>134</item>
+        <item>152</item>
+        <item>178</item>
+        <item>249</item>
+        <item>420</item>
+        <item>420</item>
+        <item>468</item>
+        <item>515</item>
+        <item>563</item>
+        <item>610</item>
+        <item>658</item>
+        <item>705</item>
+        <item>753</item>
+        <item>776</item>
+        <item>800</item>
+        <item>800</item>
     </array>
 
     <!-- An array describing the screen's backlight values corresponding to the brightness
@@ -151,7 +125,7 @@
 
          This array should be equal in size to config_screenBrightnessBacklight. -->
     <integer-array name="config_screenBrightnessBacklight">
-	    <item>0</item>
+        <item>0</item>
         <item>1</item>
         <item>2</item>
         <item>3</item>
@@ -407,22 +381,6 @@
         <item>253</item>
         <item>254</item>
         <item>255</item>
-        <item>269</item>
-        <item>284</item>
-        <item>298</item>
-        <item>313</item>
-        <item>327</item>
-        <item>342</item>
-        <item>356</item>
-        <item>370</item>
-        <item>385</item>
-        <item>399</item>
-        <item>414</item>
-        <item>428</item>
-        <item>442</item>
-        <item>457</item>
-        <item>471</item>
-        <item>486</item>
     </integer-array>
 
     <!-- An array of floats describing the screen brightness in nits corresponding to the backlight
@@ -433,7 +391,7 @@
 
          This array should be equal in size to config_screenBrightnessBacklight -->
     <array name="config_screenBrightnessNits">
-	    <item>2</item>
+        <item>2</item>
         <item>2.1</item>
         <item>2.3</item>
         <item>2.4</item>
@@ -689,28 +647,12 @@
         <item>416.8</item>
         <item>418.4</item>
         <item>420</item>
-        <item>444</item>
-        <item>468</item>
-        <item>491</item>
-        <item>515</item>
-        <item>539</item>
-        <item>563</item>
-        <item>586</item>
-        <item>610</item>
-        <item>634</item>
-        <item>658</item>
-        <item>681</item>
-        <item>705</item>
-        <item>729</item>
-        <item>753</item>
-        <item>776</item>
-        <item>800</item>
     </array>
 
     <!-- Screen brightness used to dim the screen when the user activity
          timeout expires.  May be less than the minimum allowed brightness setting
          that can be set by the user. -->
-    <integer name="config_screenBrightnessDim">57</integer>
+    <integer name="config_screenBrightnessDim">41</integer>
 
     <!-- The bounding path of the cutout region of the main built-in display.
          Must either be empty if there is no cutout region, or a string that is parsable by
