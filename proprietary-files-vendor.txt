@@ -1,4 +1,4 @@
-# Proprietary files - from Samsung package version G981BXXS6CUA8, unless pinned
+# Proprietary files - from Samsung package version G981BXXU6DUB5, unless pinned
 
 ### AUDIO
 vendor/etc/SoundBoosterParam.txt
@@ -68,7 +68,7 @@ vendor/lib64/soundfx/libswdap.so
 vendor/lib64/vendor.samsung.hardware.audio@1.0.so
 vendor/lib64/libaudioparamupdate.so
 vendor/lib/libaudioparamupdate.so
-vendor/lib/lib_SamsungRec_08010.so
+vendor/lib/lib_SamsungRec_08020.so
 vendor/lib/liblastaboxmsg.so
 vendor/lib/lib_lvacfs.so
 vendor/lib64/libengmode_client.so
@@ -77,8 +77,6 @@ vendor/lib64/libsemnativecarrierfeature.so
 vendor/lib/libsemnativecarrierfeature.so
 vendor/lib64/libsecril-client.so
 vendor/lib/libsecril-client.so
-
-### AUDIO_FIRMWARE
 
 ### BIOMETRICS_FINGERPRINT
 vendor/lib/libbauthserver.so
@@ -98,7 +96,6 @@ vendor/lib64/libsynaFpSensorTestNwd.so
 vendor/lib64/libbt-vendor.so
 vendor/lib64/vendor.samsung.hardware.bluetooth.a2dp@1.0.so
 vendor/lib/vendor.samsung.hardware.bluetooth.a2dp@1.0.so
-### BLUETOOTH_FIRMWARE
 
 # CAMERA
 -vendor/lib/hw/vendor.samsung.hardware.camera.provider@4.0-impl.so
@@ -115,6 +112,7 @@ vendor/lib/hw/camera.exynos990.so
 vendor/lib/libtriplepreview_interface.so
 vendor/lib/vendor.samsung.camera.device@5.0-impl.so
 vendor/lib/vendor.samsung.hardware.camera.device@5.0.so
+vendor/lib/vendor.samsung.hardware.camera.provider@4.0-legacy.so
 vendor/lib/vendor.samsung.hardware.camera.provider@4.0.so
 vendor/lib64/camera.device@1.0-impl.so
 vendor/lib64/camera.device@3.2-impl.so
@@ -125,6 +123,7 @@ vendor/lib64/hw/camera.exynos990.so
 vendor/lib64/libtriplepreview_interface.so
 vendor/lib64/vendor.samsung.camera.device@5.0-impl.so
 vendor/lib64/vendor.samsung.hardware.camera.device@5.0.so
+vendor/lib64/vendor.samsung.hardware.camera.provider@4.0-legacy.so
 vendor/lib64/vendor.samsung.hardware.camera.provider@4.0.so
 
 # CAMERA_DEPENDENCIES
@@ -190,10 +189,6 @@ vendor/lib64/libIDDQD_core.so
 vendor/lib64/libIDDQD_interface.so
 vendor/lib64/libLocalTM_preview_core.so
 vendor/lib64/libOpenCv.camera.samsung.so
-
-### CAMERA_FIRMWARE
-
-### CHARGER_FIRMWARE
 
 # CODECS
 vendor/etc/media_codecs.xml
@@ -290,8 +285,6 @@ vendor/lib64/omx/libOMX.Exynos.WMV.Decoder.so|16894708dc7afbba77a2a5e0a715b3cbc7
 vendor/lib64/libExynosOMX_Core.so
 vendor/lib64/libExynosOMX_Resourcemanager.so
 
-### OMX_FIRMWARE
-
 ### POWER
 vendor/lib/hw/power.default.so
 vendor/lib64/hw/power.default.so
@@ -348,7 +341,6 @@ vendor/lib64/libteecl.so
 vendor/lib64/libuuid.so
 
 # TEEGRIS_FIRMWARE
-vendor/tee/00000000-0000-0000-0000-000000000046
 vendor/tee/00000000-0000-0000-0000-00000000dead
 vendor/tee/00000000-0000-0000-0000-000000010081
 vendor/tee/00000000-0000-0000-0000-000000020081
@@ -373,12 +365,12 @@ vendor/tee/00000000-0000-0000-0000-64756c444152
 vendor/tee/00000000-0000-0000-0000-656e676d6f64
 vendor/tee/00000000-0000-0000-0000-657365636f6d
 vendor/tee/00000000-0000-0000-0000-6d73745f5441
-vendor/tee/ffffffff-0000-0000-0000-000000000030
 vendor/tee/driver/00000000-0000-0000-0000-00535453540b
 vendor/tee/driver/00000000-0000-0000-0000-4d53546d7374
 vendor/tee/driver/00000000-0000-0000-0000-53626f786476
 vendor/tee/driver/00000000-0000-0000-0000-564c544b4456
 vendor/tee/driver/18d9f073-18a5-4ade-9def-875e07f7f293_
+vendor/tee/ffffffff-0000-0000-0000-000000000030
 vendor/tee/tui/resolution_common/ID00000100
 
 ### SAMSUNG_SLSI_CONFIGSTORE
@@ -445,7 +437,6 @@ vendor/lib64/libgraphgen_misc.so
 vendor/lib64/libgraphgen_ann_nnc.so
 vendor/lib64/libgraphgen_network.so
 vendor/lib64/libgraphgen_intermediate_process.so
-vendor/lib64/libgraphgen_partition.so
 vendor/lib64/libgraphgen_export.so
 vendor/lib64/libcrane_compiler.so
 vendor/lib64/libnpu_compiler.so
@@ -486,8 +477,6 @@ vendor/lib64/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0.so
 vendor/lib64/hw/memtrack.exynos990.so
 vendor/lib/hw/memtrack.exynos990.so
 
-### SAMSUNG_SLSI_FIRMWARE
-
 ### SENSORS
 vendor/etc/sensors/hals.conf
 vendor/lib/sensors.flicker.so
@@ -496,8 +485,6 @@ vendor/lib/sensors.sensorhub.so
 vendor/lib64/sensors.flicker.so
 vendor/lib64/sensors.grip.so
 vendor/lib64/sensors.sensorhub.so
-
-### SOUNDTRIGGER_FIRMWARE
 
 ### WIDEVINE
 vendor/bin/hw/android.hardware.drm@1.3-service.widevine
@@ -519,12 +506,14 @@ vendor/firmware/APBargeIn_AUDIO_SLSI.bin
 vendor/firmware/APBiBF_AUDIO_SLSI.bin
 vendor/firmware/APDV_AUDIO_SLSI.bin
 vendor/firmware/APSV_AUDIO_SLSI.bin
+vendor/firmware/APTV_AUDIO_SLSI.bin
 vendor/firmware/AP_AUDIO_SLSI.bin
 vendor/firmware/NPU_NFD_P4.7.tflite
 vendor/firmware/SoundBoosterParam.bin
 vendor/firmware/a2dpcom.bin
 vendor/firmware/abox_tplg.bin
 vendor/firmware/abox_tplg.conf
+vendor/firmware/avsyncmix.bin
 vendor/firmware/bayer2rgb.bin
 vendor/firmware/bayer2yuv.bin
 vendor/firmware/bcm4375B1_murata.hcd
@@ -612,6 +601,7 @@ vendor/firmware/setfile_gw2.bin
 vendor/firmware/sv.bin
 vendor/firmware/txse1.bin
 vendor/firmware/txse2.bin
+vendor/firmware/txse3.bin
 vendor/firmware/usbin.bin
 vendor/firmware/usbout.bin
 vendor/firmware/volumemonitor.bin
