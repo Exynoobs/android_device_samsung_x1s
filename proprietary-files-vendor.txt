@@ -258,6 +258,8 @@ vendor/lib/libstagefright_omx_vendor.so
 vendor/lib64/libExynosOMX_Core.so
 vendor/lib64/libExynosOMX_Resourcemanager.so
 # FIXME END
+vendor/lib/libepicoperator.so
+vendor/lib64/libepicoperator.so
 vendor/lib/omx/libOMX.Exynos.AVC.Decoder.so
 vendor/lib/omx/libOMX.Exynos.AVC.Encoder.so
 vendor/lib/omx/libOMX.Exynos.AVC.WFD.Encoder.so
@@ -450,7 +452,6 @@ vendor/etc/init/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service.rc
 vendor/lib/hw/hwcomposer.exynos990.so
 vendor/lib/libExynosHWCService.so
 vendor/lib/libGrallocMapperCamera.so
-vendor/lib/libepic_helper.so
 vendor/lib/libexynosdisplay.so
 vendor/lib/libexynosgraphicbuffer.so
 vendor/lib/libexynosgscaler.so
@@ -463,7 +464,6 @@ vendor/lib64/libExynosHWCService.so
 vendor/lib64/libGrallocMapperCamera.so
 vendor/lib64/libacryl.plugin.hdr.exynos990.so
 vendor/lib64/libacryl.so
-vendor/lib64/libepic_helper.so
 vendor/lib64/libexynosdisplay.so
 vendor/lib64/libexynosgraphicbuffer.so
 vendor/lib64/libexynosgscaler.so
