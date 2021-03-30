@@ -250,40 +250,40 @@ vendor/lib64/nfc_nci_sec.so
 vendor/lib64/vendor.samsung.hardware.nfc@2.0.so
 
 # OMX
-# OMX encoders/decoders - from x1s G980FXXS5BTJ4
-vendor/lib/omx/libOMX.Exynos.AVC.Decoder.so|da98f2c07d592e5d7a6726feea0adeb3be4f3716
-vendor/lib/omx/libOMX.Exynos.AVC.Encoder.so|6a9bdd5e8df7ab291596a23d21c2fe49cf36d446
-vendor/lib/omx/libOMX.Exynos.AVC.WFD.Encoder.so|fb88d6dd0bde3ef2013f6f9856225ae514b3dc0f
-vendor/lib/omx/libOMX.Exynos.HEVC.Decoder.so|9563c89ee7fb3b40e0b14d7c3d7900348dd1d394
-vendor/lib/omx/libOMX.Exynos.HEVC.Encoder.so|12965f4547b8bd4c981e594caf77ce5ece536e51
-vendor/lib/omx/libOMX.Exynos.HEVC.WFD.Encoder.so|8cede960a26b60b29eefce4f4abb499c3228107f
-vendor/lib/omx/libOMX.Exynos.MPEG4.Decoder.so|33781fc3ba2f88ed7e3c643f6e906296464838c7
-vendor/lib/omx/libOMX.Exynos.MPEG4.Encoder.so|d34ae21a18f37c4952b4f8e41fc77295c987e442
-vendor/lib/omx/libOMX.Exynos.VP8.Decoder.so|09d096eff0a8a7ed62adbc04e78c36688eb7f3d3
-vendor/lib/omx/libOMX.Exynos.VP8.Encoder.so|ea3ec82a490222748c2315f5be0c43a33849b65b
-vendor/lib/omx/libOMX.Exynos.VP9.Decoder.so|be8bb7695c3c2c0da0636e2ab1066a01005fd4ad
-vendor/lib/omx/libOMX.Exynos.VP9.Encoder.so|346343e3f6e9d156dbb41582be0117bf8586511c
-vendor/lib/omx/libOMX.Exynos.WMV.Decoder.so|bf3f9e3b40b74c775d51387f8f818bbf3622b68f
 # FIXME: Check if any of these can be built from source
 vendor/lib/vndk/libstagefright_foundation.so
 vendor/lib/libExynosOMX_Core.so
 vendor/lib/libExynosOMX_Resourcemanager.so
 vendor/lib/libstagefright_omx_vendor.so
-vendor/lib64/omx/libOMX.Exynos.AVC.Decoder.so|68464a169d262ed381544c9643fa42ca0aeec295
-vendor/lib64/omx/libOMX.Exynos.AVC.Encoder.so|679cdae9460b4dd49ea14170de757be75f744bd1
-vendor/lib64/omx/libOMX.Exynos.AVC.WFD.Encoder.so|cc494672ad34354def9a049e9ba0046424edb167
-vendor/lib64/omx/libOMX.Exynos.HEVC.Decoder.so|0663da8125c80efeddb4e0d01c6652a88c9b4301
-vendor/lib64/omx/libOMX.Exynos.HEVC.Encoder.so|a50712634779f245cccacbc08bcac5f9ece42417
-vendor/lib64/omx/libOMX.Exynos.HEVC.WFD.Encoder.so|a806b6f301080ee95ce096d55f15543ba8d96f85
-vendor/lib64/omx/libOMX.Exynos.MPEG4.Decoder.so|d0e963ac48f0ee38e6e01ac98bbf4f7a65efc943
-vendor/lib64/omx/libOMX.Exynos.MPEG4.Encoder.so|f1500aee02057ec6941a1d1e67097f499264cb5d
-vendor/lib64/omx/libOMX.Exynos.VP8.Decoder.so|1e68468c0dc567cf7878a9be780a972f03093dc7
-vendor/lib64/omx/libOMX.Exynos.VP8.Encoder.so|d42143336c9e69da4ba7718992b84f8bb537fc89
-vendor/lib64/omx/libOMX.Exynos.VP9.Decoder.so|dae0a387a488fb5204a67945f290f7c8ff907439
-vendor/lib64/omx/libOMX.Exynos.VP9.Encoder.so|93558d334875fcb6bcc30e282d48ff0d604e9fe8
-vendor/lib64/omx/libOMX.Exynos.WMV.Decoder.so|16894708dc7afbba77a2a5e0a715b3cbc7ea92e3
 vendor/lib64/libExynosOMX_Core.so
 vendor/lib64/libExynosOMX_Resourcemanager.so
+# FIXME END
+vendor/lib/omx/libOMX.Exynos.AVC.Decoder.so
+vendor/lib/omx/libOMX.Exynos.AVC.Encoder.so
+vendor/lib/omx/libOMX.Exynos.AVC.WFD.Encoder.so
+vendor/lib/omx/libOMX.Exynos.HEVC.Decoder.so
+vendor/lib/omx/libOMX.Exynos.HEVC.Encoder.so
+vendor/lib/omx/libOMX.Exynos.HEVC.WFD.Encoder.so
+vendor/lib/omx/libOMX.Exynos.MPEG4.Decoder.so
+vendor/lib/omx/libOMX.Exynos.MPEG4.Encoder.so
+vendor/lib/omx/libOMX.Exynos.VP8.Decoder.so
+vendor/lib/omx/libOMX.Exynos.VP8.Encoder.so
+vendor/lib/omx/libOMX.Exynos.VP9.Decoder.so
+vendor/lib/omx/libOMX.Exynos.VP9.Encoder.so
+vendor/lib/omx/libOMX.Exynos.WMV.Decoder.so
+vendor/lib64/omx/libOMX.Exynos.AVC.Decoder.so
+vendor/lib64/omx/libOMX.Exynos.AVC.Encoder.so
+vendor/lib64/omx/libOMX.Exynos.AVC.WFD.Encoder.so
+vendor/lib64/omx/libOMX.Exynos.HEVC.Decoder.so
+vendor/lib64/omx/libOMX.Exynos.HEVC.Encoder.so
+vendor/lib64/omx/libOMX.Exynos.HEVC.WFD.Encoder.so
+vendor/lib64/omx/libOMX.Exynos.MPEG4.Decoder.so
+vendor/lib64/omx/libOMX.Exynos.MPEG4.Encoder.so
+vendor/lib64/omx/libOMX.Exynos.VP8.Decoder.so
+vendor/lib64/omx/libOMX.Exynos.VP8.Encoder.so
+vendor/lib64/omx/libOMX.Exynos.VP9.Decoder.so
+vendor/lib64/omx/libOMX.Exynos.VP9.Encoder.so
+vendor/lib64/omx/libOMX.Exynos.WMV.Decoder.so
 
 ### POWER
 vendor/lib/hw/power.default.so
