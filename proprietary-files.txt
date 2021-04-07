@@ -1,4 +1,4 @@
-# Proprietary files - from Samsung package version G981BXXU7DUC7, unless pinned
+# Proprietary files - from Samsung package version G981BXXS7DUC9, unless pinned
 
 ### BLUETOOTH
 # Bluetooth (AptX) - from crosshatch - RQ1A.201205.003
