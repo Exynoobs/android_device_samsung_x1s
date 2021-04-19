@@ -5,7 +5,6 @@ vendor/etc/SoundBoosterParam.txt
 vendor/etc/a2dp_audio_policy_configuration.xml
 vendor/etc/audio_policy_volumes.xml
 vendor/etc/audio_board_info.xml
-vendor/etc/audio_effects.xml
 vendor/etc/audio_effects_common.conf
 vendor/etc/audio_effects_sec.xml
 vendor/etc/default_volume_tables.xml
