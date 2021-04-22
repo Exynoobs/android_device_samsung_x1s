@@ -92,7 +92,6 @@ vendor/lib64/libqfp_sensortest.so
 vendor/lib64/libsynaFpSensorTestNwd.so
 
 ### BLUETOOTH
-vendor/lib64/libbt-vendor.so
 vendor/lib64/vendor.samsung.hardware.bluetooth.a2dp@1.0.so
 vendor/lib/vendor.samsung.hardware.bluetooth.a2dp@1.0.so
 
