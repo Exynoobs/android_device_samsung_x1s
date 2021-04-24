@@ -13,7 +13,6 @@ system/etc/init/init.gpscommon.rc
 
 ### NFC
 system/etc/libnfc-nci.conf:vendor/etc/libnfc-nci.conf
-system/lib64/vendor.samsung.hardware.nfc@2.0.so
 
 ### RIL
 init.rilmptcp.rc:system/etc/init/init.rilmptcp.rc

@@ -235,18 +235,9 @@ vendor/bin/hw/android.hardware.keymaster@4.0_strongbox-service
 vendor/etc/init/android.hardware.keymaster@4.0_strongbox-service.rc
 
 ### NFC
-vendor/bin/hw/android.hardware.secure_element@1.0-service
-vendor/bin/hw/sec.android.hardware.nfc@1.2-service
-vendor/etc/init/android.hardware.secure_element@1.0-service.rc
-vendor/etc/init/sec.android.hardware.nfc@1.2-service.rc
-vendor/etc/libse-gto-hal.conf
 vendor/etc/nfc/sec_s3nsen4_hwreg.bin
 vendor/etc/nfc/sec_s3nsen4_swreg.bin
 vendor/firmware/nfc/sec_s3nsen4_firmware.bin
-vendor/lib64/android.hardware.secure_element@1.0-impl-gto.so
-vendor/lib64/libNfcProperties.so
-vendor/lib64/nfc_nci_sec.so
-vendor/lib64/vendor.samsung.hardware.nfc@2.0.so
 
 # OMX
 # FIXME: Check if any of these can be built from source
@@ -475,6 +466,12 @@ vendor/lib64/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0.so
 ### SAMSUNG_SLSI_MEMTRACK
 vendor/lib64/hw/memtrack.exynos990.so
 vendor/lib/hw/memtrack.exynos990.so
+
+### SECURE_ELEMENT
+vendor/bin/hw/android.hardware.secure_element@1.0-service
+vendor/etc/init/android.hardware.secure_element@1.0-service.rc
+vendor/etc/libse-gto-hal.conf
+vendor/lib64/android.hardware.secure_element@1.0-impl-gto.so
 
 ### SENSORS
 vendor/etc/sensors/hals.conf
