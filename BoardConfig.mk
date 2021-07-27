@@ -13,31 +13,26 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-include device/samsung/exynos990-common/BoardConfigPlatform.mk
+## Inherit from the common tree
+include device/samsung/exynos990-common/BoardConfigCommon.mk
+
+## Inherit from the proprietary configuration
 include vendor/samsung/x1s/BoardConfigVendor.mk
 
 DEVICE_PATH := device/samsung/x1s
 
-PRODUCT_PLATFORM := exynos990
-
-# APEX image
+## APEX image
 DEXPREOPT_GENERATE_APEX_IMAGE := true
+
+TARGET_SPECIFIC_HEADER_PATH += $(DEVICE_PATH)/include
 
 TARGET_OTA_ASSERT_DEVICE := x1s
 
-TARGET_SPECIFIC_HEADER_PATH += $(DEVICE_PATH)/hardware/include
-
-### DISPLAY
+## Display
 TARGET_SCREEN_DENSITY := 480
 
-### INIT
+## Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_x1s
 
-### KERNEL
+## Kernel
 TARGET_KERNEL_CONFIG := exynos9830-x1sxxx_defconfig
-
-### SYSTEM PROPS
-TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
-
-### VENDOR PROPS
-TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
