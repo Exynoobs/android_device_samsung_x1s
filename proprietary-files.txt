@@ -1,4 +1,4 @@
-# Proprietary files - from Samsung package version G981BXXS8DUE4, unless pinned
+# Proprietary files - from Samsung package version G981BXXU8DUF9, unless pinned
 
 ## Audio
 vendor/etc/SoundBoosterParam.txt
@@ -33,8 +33,6 @@ vendor/etc/nfc/sec_s3nsen4_hwreg.bin
 vendor/etc/nfc/sec_s3nsen4_swreg.bin
 
 ## RIL
-vendor/lib/libsec-ril.so
-vendor/lib/libsec-ril-dsds.so
 vendor/lib64/libsec-ril.so
 vendor/lib64/libsec-ril-dsds.so
 
