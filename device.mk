@@ -15,9 +15,7 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 PRODUCT_AAPT_PREBUILT_DPI := xxxhdpi xxhdpi xhdpi hdpi
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-	$(DEVICE_PATH)/overlay \
-	$(DEVICE_PATH)/overlay-lineage
+DEVICE_PACKAGE_OVERLAYS += $(DEVICE_PATH)/overlay
 
 PRODUCT_SOONG_NAMESPACES += \
     $(DEVICE_PATH)
