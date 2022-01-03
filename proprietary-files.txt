@@ -1,4 +1,4 @@
-# Proprietary files - from Samsung package version G981BXXSCDUJ5, unless pinned
+# Proprietary files - from Samsung package version G981BXXSCEUL7, unless pinned
 
 ## Audio
 vendor/etc/SoundBoosterParam.txt
@@ -34,14 +34,13 @@ vendor/etc/nfc/sec_s3nsen4_swreg.bin
 
 ## RIL
 vendor/lib64/libsec-ril.so
-vendor/lib64/libsec-ril-dsds.so
 
 ## Sensors
 vendor/etc/sensors/hals.conf
 
 ## Teegris Firmware
-vendor/tee/00000000-0000-0000-0000-00000000dead
 vendor/tee/00000000-0000-0000-0000-000000534b4d
+vendor/tee/00000000-0000-0000-0000-0000534b504d
 vendor/tee/00000000-0000-0000-0000-0053545354ab
 vendor/tee/00000000-0000-0000-0000-42494f535542
 vendor/tee/00000000-0000-0000-0000-46494e474502
