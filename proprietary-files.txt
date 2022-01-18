@@ -4,36 +4,36 @@
 vendor/etc/SoundBoosterParam.txt
 vendor/etc/floating_feature.xml
 vendor/etc/mixer_gains.xml
-vendor/lib/librecordalive.so
-vendor/lib/soundfx/libsamsungSoundbooster_plus.so
-vendor/lib/soundfx/libswdap.so
-vendor/lib64/soundfx/libsamsungSoundbooster_plus.so
-vendor/lib64/soundfx/libswdap.so
+-vendor/lib/librecordalive.so
+-vendor/lib/soundfx/libsamsungSoundbooster_plus.so
+-vendor/lib/soundfx/libswdap.so
+-vendor/lib64/soundfx/libsamsungSoundbooster_plus.so
+-vendor/lib64/soundfx/libswdap.so
 
 ## Camera
-vendor/lib/hw/camera.exynos990.so
-vendor/lib64/hw/camera.exynos990.so
+-vendor/lib/hw/camera.exynos990.so
+-vendor/lib64/hw/camera.exynos990.so
 
 ## Camera dependencies
-vendor/lib/libexynoscamera3.so
-vendor/lib/libexynoscamera_bayergdc_plugin.so
-vendor/lib/libexynoscamera_fakemultiframe.so
-vendor/lib/libexynoscamera_vpl_plugin.so
-vendor/lib64/libexynoscamera3.so
-vendor/lib64/libexynoscamera_bayergdc_plugin.so
-vendor/lib64/libexynoscamera_fakemultiframe.so
-vendor/lib64/libexynoscamera_vpl_plugin.so
+-vendor/lib/libexynoscamera3.so
+-vendor/lib/libexynoscamera_bayergdc_plugin.so
+-vendor/lib/libexynoscamera_fakemultiframe.so
+-vendor/lib/libexynoscamera_vpl_plugin.so
+-vendor/lib64/libexynoscamera3.so
+-vendor/lib64/libexynoscamera_bayergdc_plugin.so
+-vendor/lib64/libexynoscamera_fakemultiframe.so
+-vendor/lib64/libexynoscamera_vpl_plugin.so
 
 ## GPS/GNSS
-vendor/lib/libwrappergps.so
-vendor/lib64/libwrappergps.so
+-vendor/lib/libwrappergps.so
+-vendor/lib64/libwrappergps.so
 
 ## NFC
 vendor/etc/nfc/sec_s3nsen4_hwreg.bin
 vendor/etc/nfc/sec_s3nsen4_swreg.bin
 
 ## RIL
-vendor/lib64/libsec-ril.so
+-vendor/lib64/libsec-ril.so
 
 ## Sensors
 vendor/etc/sensors/hals.conf
