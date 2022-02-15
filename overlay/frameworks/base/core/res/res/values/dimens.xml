@@ -23,4 +23,13 @@
 
     <!-- Height of area above QQS where battery/time go. -->
     <dimen name="quick_qs_offset_height">@dimen/status_bar_height_portrait</dimen>
+
+    <!-- Radius of the software rounded corners. -->
+    <dimen name="rounded_corner_radius">150px</dimen>
+
+    <!-- Adjustment for software rounded corners since corners aren't perfectly round. -->
+    <dimen name="rounded_corner_radius_adjustment">5px</dimen>
+
+    <!-- Height of the status bar in landscape -->
+    <dimen name="status_bar_height_landscape">28.0dp</dimen>
 </resources>
