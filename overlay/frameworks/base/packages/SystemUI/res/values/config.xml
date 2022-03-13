@@ -20,5 +20,5 @@
      for different hardware and product builds. -->
 <resources>
     <!-- The radius of the enrollment progress bar, in dp -->
-    <integer name="config_udfpsEnrollProgressBar" translatable="false">160</integer>
+    <integer name="config_udfpsEnrollProgressBar" translatable="false">140</integer>
 </resources>
